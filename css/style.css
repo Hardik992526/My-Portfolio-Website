@@ -8,10 +8,8 @@
 
 .sidebar {
     background-color: rgb(235, 226, 226);
-    width: 434px;
-    /* height: 78vh; */
     font-family: 'Fira Sans', sans-serif;
-    height: 103;
+    transition: transform 0.5s ease-in;
 }
 
 .sidebar nav {
@@ -31,6 +29,7 @@
 }
 
 .main {
+
     width: 80vw;
 }
 
@@ -39,10 +38,9 @@
 }
 
 .infoContainer {
-    /* background-color: brown; */
-    height: 65vh;
+    height: 83vh;
     width: 75vw;
-    margin: 144px auto;
+    margin: 1px 50px;
     display: flex;
     justify-content: space-around;
 }
@@ -79,7 +77,7 @@
 }
 
 .buttons button {
-    padding: 9px 24px;
+    padding: 9px 10px;
     border-radius: 15px;
     color: white;
     background-color: dodgerblue;
@@ -95,7 +93,8 @@
 }
 
 .devpic img {
-    height: 65vh;
+    height: 85vh;
+    margin-bottom: 10vh;
 }
 
 .contactform {
@@ -105,12 +104,9 @@
     font-family: 'Fira Sans', sans-serif;
 }
 
-/* .contactform h1 {
-    
-} */
 
 .contactform form div {
-    padding: 10px 0;
+    padding: 5px 0;
     display: flex;
     flex-direction: column;
 }
@@ -126,7 +122,7 @@
 #emailHelp {
     font-weight: bold;
     font-size: 14px;
-    color: rgb(114, 9, 128);
+    color: rgb(249 0 0);
     margin: 0 2px;
 }
 
@@ -134,7 +130,7 @@
     flex-direction: row;
     font-weight: bold;
     font-size: 14px;
-    color: rgb(114, 9, 128);
+    color: rgb(249 0 0);
 }
 
 #form-check input {
@@ -156,4 +152,112 @@
 .btn:hover {
     background-color: white;
     color: dodgerblue;
+}
+
+.btn-sm {
+    padding: 9px 10px;
+    border-radius: 12px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.btn-sm:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.blogitem {
+    margin: 22px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.blogcontainer h1 {
+    margin: 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.blogitem p {
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.intro h2 {
+    font-weight: bold;
+    margin: 12px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.intro p {
+    margin: 12px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.skill {
+    width: 256px;
+    height: 6px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+}
+
+.skillcontainer {
+    padding: 12px;
+    margin: 5px;
+}
+
+.skill100 {
+    width: 335px;
+    background-color: blueviolet;
+}
+
+.skill75 {
+    width: 220px;
+    background-color: blue;
+}
+
+.skill50 {
+    width: 200px;
+    background-color: aqua;
+}
+
+.sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px
+}
+
+.cross{
+    margin: -4px;
+    margin-left: 192px;
+}
+
+.ham{
+    height: 30px;
+}
+
+@media (max-width: 526px) {
+    * {
+
+        background-color: rgb(170, 114, 114);
+    }
+    .sidebar{
+        transform: translate(-443px, 8px);
+        position: absolute;
+    }
 }
