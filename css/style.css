@@ -46,6 +46,7 @@
 }
 
 .devinfo {
+    margin-left: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -170,6 +171,10 @@
     color: dodgerblue;
 }
 
+.blogcontainer{
+    margin-left: 40px;
+}
+
 .blogitem {
     margin: 22px;
     font-family: 'Fira Sans', sans-serif;
@@ -244,7 +249,7 @@
 
 .cross{
     margin: -4px;
-    margin-left: 192px;
+    margin-left: 199px;
 }
 
 .ham{
@@ -252,12 +257,12 @@
 }
 
 @media (max-width: 526px) {
-    * {
+    /* * {
 
         background-color: rgb(170, 114, 114);
     }
     .sidebar{
         transform: translate(-443px, 8px);
         position: absolute;
-    }
+    } */
 }
